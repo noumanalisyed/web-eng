@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-mvc-first:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_mvc_first_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring-mvc-first/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-mvc-first" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-logging-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

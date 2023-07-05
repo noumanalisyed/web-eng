@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dependency-injection:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dependency-injection</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dependency-injection-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="dependency-injection:war exploded" />
+    </root>
+  </artifact>
+</component>

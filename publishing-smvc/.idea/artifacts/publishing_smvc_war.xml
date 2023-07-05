@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="publishing-smvc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>publishing-smvc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="publishing-MVC.war">
+      <element id="artifact" artifact-name="publishing-smvc:war exploded" />
+    </root>
+  </artifact>
+</component>

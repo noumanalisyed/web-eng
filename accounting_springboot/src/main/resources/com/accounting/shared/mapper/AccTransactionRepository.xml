@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.accounting.domain.repository.AccTransactionRepository">
+    <resultMap id="BaseResultMap" type="com.accounting.domain.entity.AccTransaction">
+        <!--@JPA.Support generated on 2023-06-07 12:04:59.-->
+        <!--@Table acc_transaction-->
+        <id column="transaction_id" jdbcType="BIGINT" property="transactionId"/>
+        <result column="voucher_type_id" jdbcType="TINYINT" property="voucherTypeId"/>
+        <result column="transaction_date" jdbcType="DATE" property="transactionDate"/>
+        <result column="transaction_time" jdbcType="TIME" property="transactionTime"/>
+        <result column="total_amount" jdbcType="DOUBLE" property="totalAmount"/>
+        <result column="check_no" jdbcType="VARCHAR" property="checkNo"/>
+        <result column="narration" jdbcType="VARCHAR" property="narration"/>
+        <result column="entered_by" jdbcType="VARCHAR" property="enteredBy"/>
+        <result column="posting_date" jdbcType="DATE" property="postingDate"/>
+        <result column="posting_time" jdbcType="TIME" property="postingTime"/>
+        <result column="posted_by" jdbcType="VARCHAR" property="postedBy"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@JPA.Support generated on 2023-06-07 12:04:59.-->
+        transaction_id, voucher_type_id, transaction_date, transaction_time, total_amount, check_no, narration,
+        entered_by, posting_date, posting_time, posted_by
+    </sql>
+</mapper>

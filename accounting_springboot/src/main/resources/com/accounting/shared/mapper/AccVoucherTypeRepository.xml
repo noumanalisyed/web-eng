@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.accounting.domain.repository.AccVoucherTypeRepository">
+    <resultMap id="BaseResultMap" type="com.accounting.domain.entity.AccVoucherType">
+        <!--@JPA.Support generated on 2023-06-07 12:05:00.-->
+        <!--@Table acc_voucher_type-->
+        <id column="voucher_type_id" jdbcType="TINYINT" property="voucherTypeId"/>
+        <result column="voucher_type_name" jdbcType="VARCHAR" property="voucherTypeName"/>
+        <result column="abbreviation" jdbcType="VARCHAR" property="abbreviation"/>
+        <result column="desc" jdbcType="VARCHAR" property="desc"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@JPA.Support generated on 2023-06-07 12:05:00.-->
+        voucher_type_id, voucher_type_name, abbreviation, `desc`
+    </sql>
+</mapper>

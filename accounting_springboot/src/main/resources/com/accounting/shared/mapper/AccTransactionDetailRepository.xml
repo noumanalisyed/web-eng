@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.accounting.domain.repository.AccTransactionDetailRepository">
+    <resultMap id="BaseResultMap" type="com.accounting.domain.entity.AccTransactionDetail">
+        <!--@JPA.Support generated on 2023-06-07 12:05:00.-->
+        <!--@Table acc_transaction_detail-->
+        <id column="transaction_detail_id" jdbcType="BIGINT" property="transactionDetailId"/>
+        <result column="transaction_id" jdbcType="BIGINT" property="transactionId"/>
+        <result column="account_id" jdbcType="BIGINT" property="accountId"/>
+        <result column="debit_amount" jdbcType="DOUBLE" property="debitAmount"/>
+        <result column="credit_amount" jdbcType="DOUBLE" property="creditAmount"/>
+        <result column="remarks" jdbcType="VARCHAR" property="remarks"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        <!--@JPA.Support generated on 2023-06-07 12:05:00.-->
+        transaction_detail_id, transaction_id, account_id, debit_amount, credit_amount, remarks
+    </sql>
+</mapper>

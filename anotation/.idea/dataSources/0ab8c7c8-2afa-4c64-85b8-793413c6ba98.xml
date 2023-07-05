@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="studentdb@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.43">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <ServerVersion>5.7.14</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="accounting"/>
+    <schema id="3" parent="1" name="airline-db"/>
+    <schema id="4" parent="1" name="ais-db-new"/>
+    <schema id="5" parent="1" name="attendance-sample"/>
+    <schema id="6" parent="1" name="attendance_schema"/>
+    <schema id="7" parent="1" name="attendancedb"/>
+    <schema id="8" parent="1" name="beerservice"/>
+    <schema id="9" parent="1" name="blog-db"/>
+    <schema id="10" parent="1" name="book"/>
+    <schema id="11" parent="1" name="booking_core"/>
+    <schema id="12" parent="1" name="bookstore"/>
+    <schema id="13" parent="1" name="companydb"/>
+    <schema id="14" parent="1" name="customer-database"/>
+    <schema id="15" parent="1" name="customer-db"/>
+    <schema id="16" parent="1" name="customer-new-db"/>
+    <schema id="17" parent="1" name="customerdb"/>
+    <schema id="18" parent="1" name="drama_db"/>
+    <schema id="19" parent="1" name="dressnshine"/>
+    <schema id="20" parent="1" name="dressnshinedb"/>
+    <schema id="21" parent="1" name="ecom-db"/>
+    <schema id="22" parent="1" name="empdb"/>
+    <schema id="23" parent="1" name="employee-new-db"/>
+    <schema id="24" parent="1" name="en_sms"/>
+    <schema id="25" parent="1" name="en_sms_new"/>
+    <schema id="26" parent="1" name="exam"/>
+    <schema id="27" parent="1" name="gs_crm_db"/>
+    <schema id="28" parent="1" name="gs_crm_dd_v2"/>
+    <schema id="29" parent="1" name="gse-crm-db"/>
+    <schema id="30" parent="1" name="gw"/>
+    <schema id="31" parent="1" name="hb_employee_tracker"/>
+    <schema id="32" parent="1" name="hobbie_db"/>
+    <schema id="33" parent="1" name="hpk"/>
+    <schema id="34" parent="1" name="information_schema"/>
+    <schema id="35" parent="1" name="jpa_one_to_many_demo"/>
+    <schema id="36" parent="1" name="landify_db"/>
+    <schema id="37" parent="1" name="library"/>
+    <schema id="38" parent="1" name="mart"/>
+    <schema id="39" parent="1" name="maskan"/>
+    <schema id="40" parent="1" name="memar360_db"/>
+    <schema id="41" parent="1" name="mydb"/>
+    <schema id="42" parent="1" name="mysql"/>
+    <schema id="43" parent="1" name="officedb"/>
+    <schema id="44" parent="1" name="order-mgt"/>
+    <schema id="45" parent="1" name="paces-prototype"/>
+    <schema id="46" parent="1" name="paces_db"/>
+    <schema id="47" parent="1" name="paces_ems_db"/>
+    <schema id="48" parent="1" name="payroll"/>
+    <schema id="49" parent="1" name="performance_schema"/>
+    <schema id="50" parent="1" name="pharmacy"/>
+    <schema id="51" parent="1" name="photo_app"/>
+    <schema id="52" parent="1" name="photo_app_new"/>
+    <schema id="53" parent="1" name="posv34"/>
+    <schema id="54" parent="1" name="pre-sales"/>
+    <schema id="55" parent="1" name="pre-sales-db"/>
+    <schema id="56" parent="1" name="presales_db"/>
+    <schema id="57" parent="1" name="price-strategy"/>
+    <schema id="58" parent="1" name="price_strategy_db"/>
+    <schema id="59" parent="1" name="product-catalog-db"/>
+    <schema id="60" parent="1" name="product-db-2023"/>
+    <schema id="61" parent="1" name="product_db"/>
+    <schema id="62" parent="1" name="product_db_new"/>
+    <schema id="63" parent="1" name="products-db"/>
+    <schema id="64" parent="1" name="publish-db"/>
+    <schema id="65" parent="1" name="publishing"/>
+    <schema id="66" parent="1" name="rail_reservation_db"/>
+    <schema id="67" parent="1" name="registration"/>
+    <schema id="68" parent="1" name="ross-pos"/>
+    <schema id="69" parent="1" name="saaspos-db"/>
+    <schema id="70" parent="1" name="sakila"/>
+    <schema id="71" parent="1" name="sales-db"/>
+    <schema id="72" parent="1" name="sample-product-db"/>
+    <schema id="73" parent="1" name="sampledb"/>
+    <schema id="74" parent="1" name="student-course"/>
+    <schema id="75" parent="1" name="student-db-new"/>
+    <schema id="76" parent="1" name="student-info"/>
+    <schema id="77" parent="1" name="student-registration"/>
+    <schema id="78" parent="1" name="student-registration-db"/>
+    <schema id="79" parent="1" name="student-test-db"/>
+    <schema id="80" parent="1" name="student_reg"/>
+    <schema id="81" parent="1" name="student_reg_db"/>
+    <schema id="82" parent="1" name="studentdb">
+      <Current>1</Current>
+    </schema>
+    <schema id="83" parent="1" name="studentreg"/>
+    <schema id="84" parent="1" name="sys"/>
+    <schema id="85" parent="1" name="taps"/>
+    <schema id="86" parent="1" name="temp-ecom"/>
+    <schema id="87" parent="1" name="test"/>
+    <schema id="88" parent="1" name="test_db"/>
+    <schema id="89" parent="1" name="testdb"/>
+    <schema id="90" parent="1" name="testempdb"/>
+    <schema id="91" parent="1" name="time-db"/>
+    <schema id="92" parent="1" name="tobaccocastle"/>
+    <schema id="93" parent="1" name="todos"/>
+    <schema id="94" parent="1" name="web_customer_tracker"/>
+    <schema id="95" parent="1" name="web_student_tracker"/>
+    <schema id="96" parent="1" name="web_student_tracker-1"/>
+    <schema id="97" parent="1" name="world"/>
+    <schema id="98" parent="1" name="xencorps_hangry_db"/>
+    <table id="99" parent="82" name="course">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="100" parent="82" name="registration">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <table id="101" parent="82" name="student">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8_general_ci</CollationName>
+    </table>
+    <column id="102" parent="99" name="courseId">
+      <AutoIncrement>5</AutoIncrement>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="103" parent="99" name="courseName">
+      <DataType>varchar(45)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="104" parent="99" name="description">
+      <DataType>varchar(45)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="105" parent="99" name="courseCode">
+      <DataType>varchar(45)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="106" parent="99" name="PRIMARY">
+      <ColNames>courseId</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="99" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="108" parent="100" name="registrationId">
+      <AutoIncrement>16</AutoIncrement>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="109" parent="100" name="registrationDate">
+      <DataType>varchar(45)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="110" parent="100" name="studentId">
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="111" parent="100" name="courseId">
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="112" parent="100" name="Student">
+      <ColNames>studentId</ColNames>
+      <RefColNames>studentId</RefColNames>
+      <RefTableName>student</RefTableName>
+    </foreign-key>
+    <foreign-key id="113" parent="100" name="Course1">
+      <ColNames>courseId</ColNames>
+      <RefColNames>courseId</RefColNames>
+      <RefTableName>course</RefTableName>
+    </foreign-key>
+    <index id="114" parent="100" name="PRIMARY">
+      <ColNames>registrationId</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="115" parent="100" name="Student_idx">
+      <ColNames>studentId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="116" parent="100" name="Course1_idx">
+      <ColNames>courseId</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="117" parent="100" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="118" parent="101" name="studentId">
+      <AutoIncrement>4</AutoIncrement>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="119" parent="101" name="firstName">
+      <DataType>varchar(45)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="120" parent="101" name="lastName">
+      <DataType>varchar(45)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="121" parent="101" name="address">
+      <DataType>varchar(45)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="122" parent="101" name="PRIMARY">
+      <ColNames>studentId</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="123" parent="101" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

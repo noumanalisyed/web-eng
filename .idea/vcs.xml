@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Spring-Boot-Thymeleaf-App" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/accounting_springboot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/book-store" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/first-project/First Project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jstl-demo/jstl-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new-project-web/new-project-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new-spring-maven" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/servlet-demo/servlet-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot-first" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot-new" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stock-product-springboot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/student-course-reg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/student-registration/student-registration" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/welcome-jsp/web-project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/welcome-jsp/welcome-jsp" vcs="Git" />
+  </component>
+</project>

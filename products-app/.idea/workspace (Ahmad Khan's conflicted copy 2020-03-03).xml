@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d61428d4-203a-4791-8c50-f8e79c9de227" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="products-db@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectId" id="1YbUrNgyrhS8hTfhxRev02V0WuS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.12.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.techno.products.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web-work\products-app\web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DAOTest.testProductAdd">
+    <configuration name="DAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="products-app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DAOTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DAOTest.testProductAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="products-app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DAOTest" />
+      <option name="METHOD_NAME" value="testProductAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat-9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat-9" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="products-app:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/products_app_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="products-app:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DAOTest.testProductAdd" />
+        <item itemvalue="JUnit.DAOTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d61428d4-203a-4791-8c50-f8e79c9de227" name="Default Changelist" comment="" />
+      <created>1582782024803</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582782024803</updated>
+      <workItem from="1582782035739" duration="9038000" />
+      <workItem from="1583211071329" duration="414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="DAOTest_testProductAdd - 2020.02.27 at 15h 13m 56s.xml">
+      <configuration name="DAOTest.testProductAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest_testProductAdd - 2020.02.27 at 15h 16m 40s.xml">
+      <configuration name="DAOTest.testProductAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest_testProductAdd - 2020.02.27 at 15h 17m 43s.xml">
+      <configuration name="DAOTest.testProductAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest_testProductAdd - 2020.02.27 at 15h 18m 36s.xml">
+      <configuration name="DAOTest.testProductAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest_testProductAdd - 2020.02.27 at 15h 19m 41s.xml">
+      <configuration name="DAOTest.testProductAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest_testProductAdd - 2020.02.27 at 15h 22m 35s.xml">
+      <configuration name="DAOTest.testProductAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest - 2020.02.27 at 15h 24m 17s.xml">
+      <configuration name="DAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest - 2020.02.27 at 15h 26m 41s.xml">
+      <configuration name="DAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest_testProductAdd - 2020.02.27 at 15h 27m 00s.xml">
+      <configuration name="DAOTest.testProductAdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DAOTest_testProductAdd - 2020.02.27 at 15h 27m 30s.xml">
+      <configuration name="DAOTest.testProductAdd" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1583211231933">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583211231933" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1583211073655">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583211073655" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/products_app$DAOTest_testProductAdd.ic" NAME="DAOTest.testProductAdd Coverage Results" MODIFIED="1582799249781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

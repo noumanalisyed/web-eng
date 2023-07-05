@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>VoucherType</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <h2 class="text-center bg-primary text-white p-2">Account Voucher Type</h2>
+
+  <form id="addVoucherTypeForm" action="/addVoucherType" method="POST">
+    <div class="form-group">
+      <label for="voucherTypeId">Account Voucher Type ID:</label>
+      <input type="text" id="voucherTypeId" name="voucherTypeId" th:value="${voucher != null ? voucher.voucherTypeId : ''}" readonly="readonly" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="voucherTypeName">Voucher Type Name:</label>
+      <input type="text" id="voucherTypeName" name="voucherTypeName" required th:value="${voucher != null ? voucher.voucherTypeName : ''}" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="abbreviation">Abbreviation:</label>
+      <input type="text" id="abbreviation" name="abbreviation" required th:value="${voucher != null ? voucher.abbreviation : ''}" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <input type="text" id="description" name="description" required th:value="${voucher != null ? voucher.description : ''}" class="form-control">
+    </div>
+    <div class="form-group row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-10 text-right">
+        <button type="submit" class="btn btn-primary" th:text="${voucher != null ? 'Update' : 'Add'}"></button>
+      </div>
+    </div>
+  </form>
+
+  <br>
+
+  <table th:unless="${#lists.isEmpty(vouchers)}" id="voucherTypeTable" class="table table-bordered">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Abbreviation</th>
+      <th>Description</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="voucher : ${vouchers}">
+      <td th:text="${voucher.voucherTypeId}"></td>
+      <td th:text="${voucher.voucherTypeName}"></td>
+      <td th:text="${voucher.abbreviation}"></td>
+      <td th:text="${voucher.description}"></td>
+      <td>
+        <a th:href="@{/updateVoucher/{id}(id=${voucher.voucherTypeId})}" class="btn btn-success">Update</a>
+        <a th:href="@{/deleteVoucher/{id}(id=${voucher.voucherTypeId})}" class="btn btn-danger">Delete</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+</body>
+</html>
